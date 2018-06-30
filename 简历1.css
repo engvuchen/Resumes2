@@ -1,0 +1,55 @@
+html{
+	padding:0;
+	width:100%;
+}
+
+ul li{
+	display:inline;
+	padding-right:10px;
+}
+
+ul{
+	padding-left:0px;
+}
+b{
+	padding-right:5px;
+}
+
+h1{
+	margin-top:50px;
+}
+
+h2{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+h3{
+	margin-top:20px;
+}
+
+p{
+	display: inline;
+}
+
+.top{
+	float:left;
+	height:900px;
+	width:200px;
+	
+	background-color:rgb(101, 165, 250);
+	color:#fff;
+	
+	text-align:center;
+	
+	margin:0px;
+	
+	display:inline-block;
+	/*可以设置高度，和其他行内元素在同一行*/
+}
+
+.container{
+	/*两个都设置为左浮动，只有两个元素都是float的时候，他们的margin设置才会起效*/
+	float:left;
+	margin-left:20px;
+	display:block;
+}

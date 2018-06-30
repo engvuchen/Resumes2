@@ -1,0 +1,88 @@
+html{
+	width:100%;
+}
+
+h1{	
+	font-size:20px;
+	line-height:80px;
+	margin-left:15px;
+}
+
+h2{	
+	font-size:15px;
+	line-height:100px;
+	margin:0;
+	/*垂直居中的一种方法：行高=容器高*/
+	/*height和line-height的区别？*/
+}
+
+h3{
+	font-size:15px;
+	margin-top:5px;
+	margin-left:20px;
+	margin-bottom: 5px;
+	display:inline-block;
+	/*inline-block：可设置高度,在同一行*/
+}
+
+p{
+	display: inline;
+	/*margin-left:10px;*/
+}
+
+ul li{
+	padding-right:10px;
+	padding-left:0px;
+	display:inline;
+}
+
+b{	
+	font-size:15px;
+	/*margin-left:5px;*/
+	padding-left:0px;
+	padding-right:10px;
+}
+
+.u1{	
+	margin-top:15px;
+	/*top边距*/
+	margin-left:20px;
+	padding-left:0px;
+}
+
+.top{
+	color:#fff;
+	background-color:rgb(133, 133, 133);
+	height:80px;
+}
+
+.row{
+	background-color:#fff;
+	height:100px;
+	/*不指定上一个容器的具体高度的话，百分比对子元素不起作用*/
+	width:100%;
+}
+
+.left{
+	text-align:center;
+	background-color:rgb(214, 214, 214);
+	
+	height:98%;
+	width:100px;
+	
+	float:left;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+
+.left2{
+	width:93%;
+	height:100%;
+	
+	float:left;
+	border-bottom:1px solid rgb(217, 217, 217);
+}
+
+.top_distance{
+	margin-top:15px;
+}
